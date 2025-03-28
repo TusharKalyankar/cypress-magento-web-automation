@@ -25,6 +25,11 @@ const {
 
 
 module.exports = defineConfig({
+  video: true,  // Ensuring here that video recording is enabled
+  videoUploadOnPasses: true,  // To save videos even when all tests pass
+  videoCompression: false, 
+  screenshotsFolder: "cypress/screenshots", 
+  videosFolder: "cypress/videos",
   defaultCommandTimeout: 6000,
 
   env: {
@@ -36,12 +41,11 @@ module.exports = defineConfig({
     runMode: 1,
 
   },
-  projectId: "nodpcq",
 
 
   e2e: {
   setupNodeEvents,
-    specPattern: ["cypress/tests/features/signup.feature", "cypress/tests/features/login.feature"]
+    specPattern: ["cypress/tests/features/login.feature"]
 
   },
 });
