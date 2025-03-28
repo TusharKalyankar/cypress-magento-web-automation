@@ -1,0 +1,8 @@
+node_modules/ 
+cypress/cucumberReports
+cypress/downloads
+cypress/reports
+cypress/support/step_definitions/index.js
+cucumber-html-report.js
+cucumber-json-formatter.exe
+

@@ -1,0 +1,28 @@
+{
+  "name": "cypress2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "chromeRun": "npx cypress run --spec 'cypress/tests/features/*.feature' --browser chrome"
+  },
+  "cypress-cucumber-preprocessor": {
+    "json": {
+      "enabled": true,
+      "output": "cypress/cucumberReports/results.json"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
+    "@cypress/browserify-preprocessor": "latest",
+    "cypress": "^14.2.0",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-on-fix": "^1.1.0",
+    "multiple-cucumber-html-reporter": "^3.9.2"
+  }
+}
