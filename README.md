@@ -1,11 +1,11 @@
-"#Cypress Web Automation" 
+#Cypress Web Automation 
 
-## 📌 Project Overview
+## Project Overview
 This project automates Magento website for Cypress Cucumber framework using Javascript, covering:
 - Test the sign up flow [Positive+ Negative test cases included].
 - Automate creating an account on the website and signing in with that account.
 
-## 🚀 How to Run the Tests
+## How to Run the Tests
 1. Install dependencies:
    ```sh
    npm install
