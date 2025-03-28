@@ -11,12 +11,15 @@ This project automates Magento website for Cypress Cucumber framework using Java
    npm install
 
 2. Run Cypress tests (Headless Mode):
-   ```npx cypress run --browser <browser_name>
-   Note: If not included browser it will default run on Electron browser
+   ```sh
+   npx cypress run --browser <browser_name>
+Note: If not included browser it will default run on Electron browser
 
 3. Run Cypress tests (Headless Mode):
-   ```npx cypress run --browser <browser_name> --headed
-   Note: If not included browser it will default run on Electron browser
+   ```sh
+   npx cypress run --browser <browser_name> --headed
+Note: If not included browser it will default run on Electron browser
 
 4. Run Manually via Cypress Runner:
-   ```npx cypress open
+   ```sh
+   npx cypress open
