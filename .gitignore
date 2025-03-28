@@ -6,4 +6,5 @@ cypress/support/step_definitions/index.js
 cucumber-html-report.js
 cucumber-json-formatter.exe
 cypress/fixtures/signUpEmail.json
+cypress/videos
 

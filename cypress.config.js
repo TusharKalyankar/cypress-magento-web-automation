@@ -45,7 +45,7 @@ module.exports = defineConfig({
 
   e2e: {
   setupNodeEvents,
-    specPattern: ["cypress/tests/features/login.feature"]
+    specPattern: ["cypress/tests/features/signup.feature", "cypress/tests/features/login.feature"]
 
   },
 });
