@@ -4,6 +4,7 @@
 This project automates Magento website for Cypress Cucumber framework using Javascript, covering:
 - Test the sign up flow [Positive+ Negative test cases included].
 - Automate creating an account on the website and signing in with that account.
+- Includes video evidences in the videos folder under cypress folder.
 
 ## How to Run the Tests
 1. Install dependencies:
