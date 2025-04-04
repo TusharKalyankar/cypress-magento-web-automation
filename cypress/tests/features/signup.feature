@@ -1,7 +1,5 @@
 Feature: To test the sign up flow.
 
-  # Assessment Task Objective: Test the sign up flow [Positive+ Negative included].
-
   Scenario: Successful Signup
     Given I open the signup page
     When I enter valid details
